@@ -22,6 +22,7 @@ Most of those and more are done by another famous app protection, [Promon Shiled
 ## Technical Overview
 ### Java Side
 The basic code structure looks like this:
+
 ![image](https://github.com/Solaree/pairipcore/assets/115794865/cf3235c3-fd97-4926-8b76-8ef481467e1e)
 If we will check `Application.java`, we will see something like this:
 ```java
