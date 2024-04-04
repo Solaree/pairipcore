@@ -614,9 +614,9 @@ waitpid(31085, -674451440, -2147483648);
 prctl(PR_SET_PTRACER, 0);
 prctl(PR_SET_DUMPABLE, 0);
 ```
-This is old technique with different variations so I wont stop just there, if you are interested how that works you might look at Promon Shield [reversal analysis](https://github.com/KiFilterFiberContext/promon-reversal/blob/main/README.md#anti-debugging).
+This is old technique with different variations so I wont stop just there, if you are interested how that works you might look at Promon Shield [reversal analysis](https://github.com/KiFilterFiberContext/promon-reversal#anti-debugging).
 
-After the child cloned, it's process used for executing `/proc/self/maps` and `/proc/self/status` checks, more detailed about calls in the [*basics*](https://github.com/Solaree/pairipcore/edit/master/README.md#basics) block. After read/lseek iteration it crashes, if it finds injected Frida in own process. Unlike Promon Shield, its easily bypassable with just sending `SIGKILL` signal to the child after `waitpid`:
+After the child cloned, it's process used for executing `/proc/self/maps` and `/proc/self/status` checks, more detailed about calls in the [*basics*](https://github.com/Solaree/pairipcore#basics) block. After read/lseek iteration it crashes, if it finds injected Frida in own process. Unlike Promon Shield, its easily bypassable with just sending `SIGKILL` signal to the child after `waitpid`:
 ```c
 wait(21595, -117863808, -2147483648);
 kill(21595, 9);
