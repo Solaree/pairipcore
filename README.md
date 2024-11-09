@@ -17,7 +17,7 @@ Pairipcore prevents any kind of repacking, tampering, code injecting for the app
 - [x] [system property functions](https://android.googlesource.com/platform/bionic/+/master/libc/include/sys/system_properties.h), [`access`](https://man7.org/linux/man-pages/man2/access.2.html), [`opendir`](https://man7.org/linux/man-pages/man3/opendir.3.html), [`readddir`](https://man7.org/linux/man-pages/man3/readdir.3.html), [`closedir`](https://man7.org/linux/man-pages/man3/closedir.3.html) directories and properties checks
 - [x] Full frida-server check (not only default port, like Promon Shield does)
 
-Most of those and more are done by another famous app protection, [Promon Shiled](https://github.com/KiFilterFiberContext/promon-reversal)
+Most of those and more are done by another famous app protection, [Promon Shield](https://github.com/KiFilterFiberContext/promon-reversal)
 
 ## Technical Overview
 ### Java Side
