@@ -661,5 +661,5 @@ Finally, goes frida-server check. Funny that it doesnt check for port or `progna
 I hope you enjoyed this journey and liked this kind of security researching, see you again! Someday...
 
 ### Help
-Questions? **solarnik** (Discord)
+Questions? **sola.re** (Discord)
 My discord server: [https://discord.gg/qeGbmR6b9b](https://discord.gg/qeGbmR6b9b "https://discord.gg/qeGbmR6b9b")
