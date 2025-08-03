@@ -681,4 +681,5 @@ Just paste a Google Play or App Store link — our bot takes care of:
 * Fast turnaround via server-side automation
 
 🚀 **Alpha Testing Starts: August 1**
+
 👥 Join the community: [https://veux.su/discord](https://veux.su/discord)
