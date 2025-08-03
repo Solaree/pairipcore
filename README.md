@@ -662,4 +662,23 @@ I hope you enjoyed this journey and liked this kind of security researching, see
 
 ### Help
 Questions? **sola.re** (Discord)
-My discord server: [https://discord.gg/qeGbmR6b9b](https://discord.gg/qeGbmR6b9b "https://discord.gg/qeGbmR6b9b")
+
+My discord server: [https://veux.su/discord](https://veux.su/discord)
+
+Here’s a concise version tailored for a GitHub README:
+
+---
+
+## 🔓 pwn.me — Our Automated Mobile App Reversing Platform
+
+**pwn.me** is a fully automated platform for reverse engineering and protection bypassing on Android & iOS.
+
+Just paste a Google Play or App Store link — our bot takes care of:
+
+* Decompilation & analysis
+* Bypassing obfuscation, anti-debugging, Pairip/Promon/Arxan-like protections
+* Injecting custom hooks or guards (optional)
+* Fast turnaround via server-side automation
+
+🚀 **Alpha Testing Starts: August 1**
+👥 Join the community: [https://veux.su/discord](https://veux.su/discord)
